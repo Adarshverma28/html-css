@@ -1,0 +1,15 @@
+a=int (input ("enter the no of row"))
+b=int (input("enter the no of columns"))
+m=[]
+for i in range(a):
+    c=[]
+    for j in range(b):
+        j=int(input("enter no in pocket ["+str(i)+"] ["+str(j)+"] "))
+        c.append(j)
+    m.append(c)
+print("matrix is ...")
+for i in range(a):
+    for j in range(b):
+        print(m[i][j],end=" ")
+    print()
+    
